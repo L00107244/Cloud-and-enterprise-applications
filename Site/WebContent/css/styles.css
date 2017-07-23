@@ -1,0 +1,202 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+
+*/
+
+body{
+	background-color:#d69659;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+h1, h2, h3{
+	font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
+
+
+#wrapper{
+	width:900px; margin:10px auto;
+	background-color:#FFF;
+	padding:0 40px;
+}
+
+
+
+
+#logo{
+	float:left;
+	margin:50px 0;
+}
+
+#office{
+	float:left;
+	margin:10px 0;
+}
+
+
+
+
+#social-media{
+	float:right;
+	margin:40px 0;
+}
+
+#social-media ul li{ 
+	display:inline;
+	list-style-type:none;
+}
+
+#social-media p{
+	text-align:right;
+}
+
+
+#topnav{
+	clear:both;
+}
+
+
+#content{
+	float:left;
+}
+
+#advertise-content{
+	float:left;
+	width:100%;
+}
+
+#content p{
+	font-size:12px;
+	line-height:180%;
+}
+
+#content h2{
+	color:#A95400;
+}
+
+#box1{
+	width:265px;
+	float:left;
+	margin-right:40px;
+}
+
+#box2{
+	width:265px;
+	float:left;
+}
+
+.imgborder{
+    border:2px #FF6600 groove;
+}
+
+.img-right{
+	float:right;
+	padding:0 0 0 25px;
+}
+
+#rightside{
+	float:right;
+	width:420px;
+	margin-top:55px;
+}
+
+#rightside h2{
+	color:#A95400;
+}
+
+#rightside p{
+	font-size:12px;
+	line-height:70%;	
+}
+
+table {
+    width: 100%;
+	border: 1px solid grey;
+}
+
+
+th {
+    height: 50px;
+	margin-left:5px;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+    padding: 2px;
+    text-align: left;
+}
+
+
+
+#footer{
+	clear:both;
+	border-top:1px #666 solid;
+	padding:10px 0;
+}
+
+#footer p{
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+#thumbnails ul li{
+	list-style-type:none;
+	display:inline;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+#thumbnails ul li img{
+	padding:4px;
+	border:1px #555 dotted;
+	margin:0px 15px 15px 0px;
+}
+
+/* Contact Form Styles */
+
+#contact-form ol li{
+	list-style-type:none;
+}
+
+
+input, textarea{
+	display:block;
+	width:350px;
+	border:1px #000 solid;
+	padding:5px;	
+}
+
+textarea{
+	height:150px;
+}
+
+
+
+input:focus, textarea:focus{
+	background-color:#FFD9B3;
+}
+
+label{
+	display:block;
+	margin-top:10px;
+	
+}
+
+.submit{
+	width:100px;
+	margin-top:15px;
+}
+
+
